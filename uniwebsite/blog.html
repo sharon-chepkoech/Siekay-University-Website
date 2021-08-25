@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>University website design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+
+        <section class="sub-header">
+            <nav><a href="index.html"><img src="images/logo.jpeg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Certificate and online programmes</h1>
+
+        </section>
+
+<!-------------blog page------>
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our Certificate and online programmes</h2>
+            <p>Certificates and diplomas are each designed for completion within two years, making them both shorter alternatives to the associate degree. They are a popular educational pathway among high school graduates who wish to receive relevant job training and enter the workforce without completing a full degree program, as well as established professionals seeking higher salaries and more advancement opportunities.</p>
+            <br>
+            <p>The online programmes are taught through remote engagement learning.<br>This makes it easier for the student and the tutor since it is flexible and can be learnt and<br> taught at the comfort of ones home.</p>
+            <br>
+           
+            <p>These online programmes are usually conducted by the help of zoom meetings and google meet.</p>
+
+
+
+
+
+            <div class="comment-box">
+                <h3>Leave a  comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter name">
+                    <input type="email" placeholder="Email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+                </form>
+            </div>
+
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>
+                    Business Analytics
+                </span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>
+                    Computer Science
+                </span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>
+                    AutoCad
+                </span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>
+                    Journalism
+                </span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>
+                    Commerce
+                </span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>
+                    Data Science
+                </span>
+                <span>28</span>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+
+<!----------facilities------>
+
+        
+
+        
+
+    
+
+<!----------footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are friendly and we give all students chances to brighten their future by learning with us. <br>We do not give up.<br> We do not quit.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        
+    </div>
+    <p>Made with  <i class="fa fa-heart-o"></i> by Sharon Siekay</p>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+<!----------Javascript for Toggle Menu------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
